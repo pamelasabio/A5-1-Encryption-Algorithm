@@ -22,12 +22,11 @@ A5/1 is a stream cipher used to provide over-the-air communication privacy in th
 
 A5/1 is based around a combination of three linear feedback shift registers (LFSRs) with irregular clocking. The three shift registers are specified as follows:
 
-| LFSR | Lenght  | Feedback                                                            | Clocking | Tapped           |
-| no.  | in bits | polynomial                                                          | bit      | bits             |     
-|------|---------|---------------------------------------------------------------------|----------|------------------|
-| 1    | 19      | x^{19}+x^{18}+x^{17}+x^{14}+1} x^{{19}}+x^{{18}}+x^{{17}}+x^{{14}}+1| 8        | 13, 16, 17, 18   |
-| 2    | 22      | x^{22}+x^{21}+1} x^{{22}}+x^{{21}}+1                                | 10       | 20, 21           |
-| 3    | 23      | x^{23}+x^{22}+x^{21}+x^{8}+1} x^{{23}}+x^{{22}}+x^{{21}}+x^{{8}}+1  | 10       | 10	7, 20, 21, 22| 
-
+| LFSR | Lenght  | Feedback                                                            | Clocking | Tapped           |</br>
+| no.  | in bits | polynomial                                                          | bit      | bits             |</br>  
+|------|---------|---------------------------------------------------------------------|----------|------------------|</br>
+| 1    | 19      | x^{19}+x^{18}+x^{17}+x^{14}+1} x^{{19}}+x^{{18}}+x^{{17}}+x^{{14}}+1| 8        | 13, 16, 17, 18   |</br>
+| 2    | 22      | x^{22}+x^{21}+1} x^{{22}}+x^{{21}}+1                                | 10       | 20, 21           |</br>
+| 3    | 23      | x^{23}+x^{22}+x^{21}+x^{8}+1} x^{{23}}+x^{{22}}+x^{{21}}+x^{{8}}+1  | 10       | 10	7, 20, 21, 22|</br>
 
 ![A5/1](https://upload.wikimedia.org/wikipedia/commons/5/5e/A5-1_GSM_cipher.svg)
