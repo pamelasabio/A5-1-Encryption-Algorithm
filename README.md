@@ -21,12 +21,35 @@ Generate and print the next 8 keystream bits. Print the contents of X, Y and Z a
 A5/1 is a stream cipher used to provide over-the-air communication privacy in the GSM cellular telephone standard. It is one of seven algorithms which were specified for GSM use.[1] It was initially kept secret, but became public knowledge through leaks and reverse engineering. A number of serious weaknesses in the cipher have been identified.
 
 A5/1 is based around a combination of three linear feedback shift registers (LFSRs) with irregular clocking. The three shift registers are specified as follows:
-
-| LFSR | Lenght  | Feedback                                                            | Clocking | Tapped           |</br>
-| no.  | in bits | polynomial                                                          | bit      | bits             |</br>  
-|------|---------|---------------------------------------------------------------------|----------|------------------|</br>
-| 1    | 19      | x^{19}+x^{18}+x^{17}+x^{14}+1} x^{{19}}+x^{{18}}+x^{{17}}+x^{{14}}+1| 8        | 13, 16, 17, 18   |</br>
-| 2    | 22      | x^{22}+x^{21}+1} x^{{22}}+x^{{21}}+1                                | 10       | 20, 21           |</br>
-| 3    | 23      | x^{23}+x^{22}+x^{21}+x^{8}+1} x^{{23}}+x^{{22}}+x^{{21}}+x^{{8}}+1  | 10       | 10	7, 20, 21, 22|</br>
+<table>
+  <tr>
+    <td>LFSR no.</td>
+    <td>Length in bits</td>
+    <td>Feedback polynomial</td>
+    <td>Clocking bit</td>
+    <td>Tapped bits</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>19</td>
+    <td>x<sup>19</sup> + x<sup>18</sup> + x<sup>17</sup> + x<sup>14</sup> + 1</td>
+    <td>8</td>
+    <td>13, 16, 17, 18</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>22</td>
+    <td>x<sup>22</sup> + <sup>21</sup> + 1</td>
+    <td>10</td>
+    <td>20, 21</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>23</td>
+    <td>x<sup>23</sup> + x<sup>22</sup> + x<sup>21</sup> + x<sup>8</sup> + 1</td>
+    <td>10</td>
+    <td>10	7, 20, 21, 22</td>
+  </tr>
+</table>
 
 ![A5/1](https://upload.wikimedia.org/wikipedia/commons/5/5e/A5-1_GSM_cipher.svg)
