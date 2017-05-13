@@ -3,6 +3,7 @@ Implementation of A5/1 Encryption Algorithm which is part of our Informations an
 
 * <a href="#Task">Task</a> </br>
 * <a href="#Description">Description</a> </br>
+* <a href="#Implementation">Implementation</a> </br>
 
 <a id= "Task" ></a>
 ## Task
@@ -53,3 +54,10 @@ A5/1 is based around a combination of three linear feedback shift registers (LFS
 </table>
 
 ![A5/1](https://upload.wikimedia.org/wikipedia/commons/5/5e/A5-1_GSM_cipher.svg)
+
+<a id= "Implementation" ></a>
+## Implementation
+This is what the output of the program when it is being run on the command line: 
+
+![exe](https://cloud.githubusercontent.com/assets/15609506/26024733/80bec58e-380a-11e7-8ec0-1b77b408a351.png)
+
