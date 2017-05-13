@@ -7,12 +7,12 @@ Implementation of A5/1 Encryption Algorithm which is part of our Informations an
 <a id= "Task" ></a>
 ## Task
 This is the task given: 
-``Implement the A5/1 algorithm. Suppose that, after a particular step, the values in the registers are
+```Implement the A5/1 algorithm. Suppose that, after a particular step, the values in the registers are
 X = (x0, x1, . . . , x18) = (1010101010101010101)
 Y = (y0, y1, . . . , y21) = (1100110011001100110011) 
 Z = (z0, z1, . . . , z22) = (11100001111000011110000)
 
-Generate and print the next 8 keystream bits. Print the contents of X, Y and Z after the 8 keystream bits have been generated.`` 
+Generate and print the next 8 keystream bits. Print the contents of X, Y and Z after the 8 keystream bits have been generated.``` 
 
 <a id= "Description" ></a>
 ## Description
