@@ -74,7 +74,7 @@ int main(){
         }
 }
 
-int maj(x ,y, z){
+int maj(int x, int y, int z){
         int m;
         if(x == 0){
                 if(y == 0 || z == 0){
